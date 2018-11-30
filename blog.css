@@ -1,4 +1,8 @@
 /* Style the header with a grey background and some padding */
+body {
+
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -37,7 +41,12 @@
   color: white;
 }
 
-/* Float the link section to the right */
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5px;
+  font-
+}
 
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -51,7 +60,8 @@
     float: none;
   }
 }
-#blog{
+.blog{
   margin-left: auto;
 margin-right: auto;
+background-color: grey;
 }

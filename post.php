@@ -13,14 +13,14 @@
       $date = date('l jS \of F Y h:i:s A');
       $category = mysqli_real_escape_string($db, $category);
 
-     $sql = "INSERT into posts (title, content, date, category_id) VALUES ('$title', '$content', '$date', '$category')";
+      $sql = "INSERT into posts (title, content, date, category_id) VALUES ('$title', '$content', '$date', '$category')";
 
     if($title == "" || $content == ""|| $category == "") {
       echo "Vul de velden in";
         return;
      }
       mysqli_query($db, $sql);
-      
+
 
       header("Location: index.php");
     }
